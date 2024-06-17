@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient In CSS</title>
+
+</head>
+<body>
+    <h1>Gradient In CSS</h1><hr>
+    <div class="linear-gradient">linear-gradient</div><hr>
+    <div class="radial-gradient">radieal-gradient</div><hr>
+    <div class="conic-gradient">conic-gradient</div><hr>
+</body>
+
+<style>
+    body{
+        /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(118,9,121,1) 0%, rgba(140,22,230,1) 50%, rgba(0,212,255,1) 100%); */
+        /* background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+    }
+    div{
+        height: 200px;
+        font-size: 30px;
+    }
+    .linear-gradient{
+        background: linear-gradient(0.25turn, rgb(0, 255, 34), rgb(23, 0, 128), rgb(255, 0, 136));
+    }
+    .radial-gradient{
+        background: radial-gradient(rgb(72, 31, 239), rgb(234, 116, 43), rgb(200, 28, 111));
+    }
+    .conic-gradient{
+        background: conic-gradient(rgb(34, 192, 227), rgb(239, 53, 218), rgb(196, 216, 81));
+        width: 200px;
+        margin: auto;
+        border-radius: 50%;
+    }
+</style>
+</html>
+
+
+<!-- https://cssgradient.io/ -->
