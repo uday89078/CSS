@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Shapes Layout</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightgrey;
+        }
+        .container {
+            width: 90%;
+            height: 90%;
+            background-color: #d9d9ff;
+            position: relative;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .shape {
+            position: absolute;
+            box-sizing: border-box;
+        }
+        .black-square {
+            width: 15%;
+            height: 30%;
+            background-color: black;
+            top: 35%;
+            left: 42.5%;
+        }
+        .red-rectangle {
+            width: 20%;
+            height: 10%;
+            background-color: red;
+        }
+        .top-red {
+            top: 2%;
+            left: 40%;
+        }
+        .bottom-blue {
+            width: 20%;
+            height: 10%;
+            background-color: blue;
+            bottom: 2%;
+            left: 40%;
+        }
+        .yellow-rectangle {
+            width: 10%;
+            height: 20%;
+            background-color: yellow;
+        }
+        .left-yellow {
+            top: 40%;
+            left: 2%;
+        }
+        .right-purple-rectangle {
+            width: 10%;
+            height: 20%;
+            background-color: purple;
+            top: 40%;
+            right: 2%;
+        }
+        .half-circle {
+            width: 10%;
+            height: 20%;
+            background-color: purple;
+            border-radius: 50%;
+        }
+        .top-left-purple {
+            top: -10%;
+            left: -5%;
+            border-radius: 50%;
+        }
+        .top-right-red {
+            width: 10%;
+            height: 20%;
+            background-color: red;
+            top: -10%;
+            right: -5%;
+            border-radius: 50%;
+        }
+        .bottom-left-blue {
+            width: 10%;
+            height: 20%;
+            background-color: blue;
+            bottom: -10%;
+            left: -5%;
+        }
+        .bottom-right-yellow {
+            width: 10%;
+            height: 20%;
+            background-color: yellow;
+            bottom: -10%;
+            right: -5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="shape black-square"></div>
+        <div class="shape red-rectangle top-red"></div>
+        <div class="shape red-rectangle bottom-blue"></div>
+        <div class="shape yellow-rectangle left-yellow"></div>
+        <div class="shape right-purple-rectangle"></div>
+        <div class="shape half-circle top-left-purple"></div>
+        <div class="shape half-circle top-right-red"></div>
+        <div class="shape half-circle bottom-left-blue"></div>
+        <div class="shape half-circle bottom-right-yellow"></div>
+    </div>
+</body>
+</html>
