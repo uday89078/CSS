@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-image: url(./img/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ copy.png);
+    height: 100vh;
+    background-size: cover;    
+}
+.container{
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navwrapper{
+    background-color: #303030;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px 30px;
+}
+nav{
+    padding: 10px 30px;
+}
+.search{
+    color: aliceblue;
+    font-size: 20px;
+}
+img{
+    width: 100%;
+}
+.text{
+    margin:300px 100px;
+    text-align: left;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.button1{
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #e8631c;
+    color: aliceblue;
+}
+.sec-1{
+    background-color:  #e8631c;
+    height: 100vh;
+}
+
+.sec-1 h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.sec-1 p{
+font-size: 25px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+}
+
+.card {
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #303030;
+    margin: 50px;
+} 
+
+.sec-2 {
+    display: flex;
+    justify-content: space-around;
+}
+/* page 2 css */
+.sec-3{
+    background-color: #303030 ;
+    height: 100vh;
+}
+.sec-3 h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0px;
+}
+.sec-3 p{
+color: #ffffff;
+font-size: 25px;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+padding: 5px;
+}
+.card-1 {
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #e8631c;
+    margin: 50px;
+    border-radius: 10px;
+} 
+.card-1 h3{
+    font-size: 50px;
+}
+.card-1 img{
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+}
+.sec-2 {
+    display: flex;
+    justify-content: space-around;
+}
+.button2{
+    height: 50px;
+    width: 200px;
+    background-color: #303030;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* page 4 start */
+.sec-4{
+    background-color: #e8631c;
+    height: 100vh;
+    /* display: flex; */
+}
+.box-1 img{
+    width: 50%;
+    height: 729px;
+    float: left;
+}
+.text-4{
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 270px;
+    margin-left: 80px;
+    text-align: center;
+}
+.button3{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:  #303030;
+    margin: 20px;
+}
+/*  page 4 complate */
+.sec-5{
+    background-color: #e8631c;
+    height: 100vh;
+}
+.box-2 img{
+    width: 50%;
+    height: 729px;
+    float: right;
+}
+.text-5{
+    /* display: flex; */
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    text-align: justify;
+    
+}
+.button4{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:  #303030;
+    margin: 20px;
+}
