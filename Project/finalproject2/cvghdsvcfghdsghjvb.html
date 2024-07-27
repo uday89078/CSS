@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: #f8f9fa;
+}
+
+.background-image {
+    width: 33%;
+    height: 100%;
+    background-size: cover  ;
+    background-position:  center center / cover fixed;
+}
+
+.background-image.left {
+    background-image: url('img/about/banner-05.jpg');
+}
+
+.background-image.right {
+    background-image: url('img/about/banner-05.jpg');
+}
+
+.center-section {
+    width: 25%;
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.center-section h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.center-section hr {
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+    border: none;
+    margin: 10px auto 20px auto;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons  {
+    display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 20px 100px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="background-image left"></div>
+        <div class="center-section">
+            <hr>
+            <h2>Follow Us</h2>
+            
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+            </div>
+        </div>
+        <div class="background-image right"></div>
+    </div>
+</body>
+</html>
