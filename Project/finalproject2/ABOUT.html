@@ -102,37 +102,36 @@ nav{
 }
 
 .container {
-                  display: flex;
-                  flex-wrap: wrap;
-                  max-width: 800px;
-                  gap: 20px;
-                  margin-left:  325px;
-                  align-items: center;
-                  justify-content: center;
-
-              }
-              .card {
-                  background-color: #f5f7f9;
-                  border-radius: 10px;
-                  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                  text-align: center;
-                  padding: 50px;
-                  width: 200px;
-              }
-              .card img {
-                  border-radius: 50%;
-                  width: 100px;
-                  height: 100px;
-              }
-              .card h3 {
-                  margin: 15px 0 5px;
-              }
-              .card p {
-                  margin: 0;
-                  color: gray;
-              }
+ display: flex;
+ flex-wrap: wrap;
+ max-width: 800px;
+ gap: 43px;
+ margin-left:  325px;
+ align-items: center;
+ justify-content:center;
+ }
+ .card {
+     background-color: #f5f7f9;
+     /* border-radius: 10px; */
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     padding: 50px;
+     width: 200px;
+     height: 300px;
+ }
+ .card img {
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+ }
+ .card h3 {
+     margin: 15px 0 5px;
+ }
+ .card p {
+     margin: 0;
+     color: gray; }
               /* feature */
-              .features {
+    .features {
     display: flex;
     justify-content: space-around;
     padding: 50px;
@@ -289,7 +288,21 @@ nav{
 .social-icons i:hover {
   color: #007bff;
 }
- 
+.words{
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+.words hr{
+  width: 150px;
+  border: 2px solid blue;
+  margin-left: 680px;
+}
+
+ .words h2{
+  font-size: 40px;
+  line-height: 70px;
+ }
 </style>
 <body>
     <section id="section1">
@@ -332,43 +345,52 @@ nav{
         </div>
     </div>
 
+<div class="words">
+  <hr>
+  <h4>A Few Words About</h4>
+  <h2>Our Team</h2>
+  <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class <br>aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+</div>
 
-
-
-
+<br>
+<br>
+<br>
     
-          <div class="container">
-              <div class="card">
-                  <img src="img/about/team1-free-img.png" alt="Harvey Spector">
-                  <h3>Harvey Spector</h3>
-                  <p>Founder - CEO</p>
-              </div>
-              <div class="card">
-                  <img src="img/about/team2-free-img.png" alt="Jessica Pearson">
-                  <h3>Jessica Pearson</h3>
-                  <p>COO</p>
-              </div>
-              <div class="card">
-                  <img src="img/about/team3-free-img.png" alt="Rachel Zain">
-                  <h3>Rachel Zain</h3>
-                  <p>Marketing Head</p>
-              </div>
-              <div class="card">
-                  <img src="img/about/team4free-img.png" alt="Luise Litt">
-                  <h3>Luise Litt</h3>
-                  <p>Lead Developer</p>
-              </div>
-              <div class="card">
-                  <img src="img/about/team5-free-img.png" alt="Katrina Bennett">
-                  <h3>Katrina Bennett</h3>
-                  <p>Intern Designer</p>
-              </div>
-              <div class="card">
-                  <img src="img/about/team6-free-img.png" alt="Mike Ross">
-                  <h3>Mike Ross</h3>
-                  <p>Intern Designer</p>
-              </div>
-          </div>
+<div class="container">
+    <div class="card">
+        <img src="img/about/team1-free-img.png" alt="Harvey Spector">
+        <h3>Harvey Spector</h3>
+        <p>Founder - CEO</p>
+    </div>
+    <div class="card">
+        <img src="img/about/team2-free-img.png" alt="Jessica Pearson">
+        <h3>Jessica Pearson</h3>
+        <p>COO</p>
+    </div>
+    <div class="card">
+        <img src="img/about/team3-free-img.png" alt="Rachel Zain">
+        <h3>Rachel Zain</h3>
+        <p>Marketing Head</p>
+    </div>
+    <div class="card">
+        <img src="img/about/team4free-img.png" alt="Luise Litt">
+        <h3>Luise Litt</h3>
+        <p>Lead Developer</p>
+    </div>
+    <div class="card">
+        <img src="img/about/team5-free-img.png" alt="Katrina Bennett">
+        <h3>Katrina Bennett</h3>
+        <p>Intern Designer</p>
+    </div>
+    <div class="card">
+        <img src="img/about/team6-free-img.png" alt="Mike Ross">
+        <h3>Mike Ross</h3>
+        <p>Intern Designer</p>
+    </div>
+ </div>
+<br>
+<br>
+<br>
       
  <div class="features">
     <div class="feature-item">
@@ -395,10 +417,11 @@ nav{
 
 
 
-
   <footer>
     <div class="sale-banner">
         SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.
+        <br>
+        <br>
     </div>
     <div class="footer-content">
         <div class="brand-info">
