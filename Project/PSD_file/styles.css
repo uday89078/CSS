@@ -171,3 +171,100 @@ a {
   cursor: pointer;
 }
 /* third page complate */
+
+.main4 {
+  background-color: #f6eedf;
+  height: 100vh;
+}
+.text6 h1 {
+  font-size: 65px;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: "Archivo";
+}
+.text6 {
+  font-size: 40px;
+  color: #f64b3c;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.btn3 {
+  padding: 8px 35px;
+  font-size: 19px;
+  text-transform: uppercase;
+  background-color: #f64b3c;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.bug {
+  border-radius: 50%;
+  height: 65vh;
+}
+.conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 150px;
+}
+
+.img7 {
+  position: absolute;
+  right: 50px;
+  top: -500px;
+  height: 20vh;
+}
+.img8 {
+  position: absolute;
+  left: -10px;
+  bottom: 450px;
+  height: 18vh;
+}
+.img9 {
+  position: absolute;
+  bottom: 400px;
+  right: 840px;
+  height: 22vh;
+}
+.img10 {
+  position: absolute;
+  bottom: -80px;
+  right: 25px;
+}
+.img11 {
+  position: absolute;
+  left: 750px;
+  bottom: 10px;
+  height: 20vh;
+}
+.img12 {
+  position: absolute;
+  left: 120px;
+  top: 0px;
+}
+/* PAGE4 COMPLATE */
+
+.main5 {
+  background-color: #f64b3c;
+  height: 95vh;
+}
+
+.txt9 h1 {
+  font-size: 62px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+}
+.txt9 p {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
