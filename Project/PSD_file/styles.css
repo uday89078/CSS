@@ -268,3 +268,245 @@ a {
   font-family: "Montserrat";
   text-align: center;
 }
+
+.cardcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  text-align: center;
+}
+
+.circle {
+  width: 310px;
+  height: 310px;
+  border-radius: 155px;
+  border: 5px solid #ffffff;
+  align-items: center;
+}
+
+.circle p {
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+  font-size: 90px;
+  margin-top: 40px;
+}
+.circle .sub {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 30px;
+}
+/* main5 complate */
+
+.main6 {
+  height: 100vh;
+  background-color: #f6eedf;
+}
+.main6 h1 {
+  font-size: 75px;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+}
+
+.cardo {
+  display: flex;
+  color: #f64b3c;
+  justify-content: space-around;
+}
+
+.box1 {
+  width: 300px;
+  height: 350px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.box1 .maint {
+  font-size: 33px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+}
+.box1 img {
+  margin-left: 115px;
+  height: 10vh;
+}
+.box1 .price {
+  font-size: 33px;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+}
+.box1 .lor {
+  font-size: 20px;
+  color: #f64b3c;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.box1 .boxbtn {
+  border: none;
+  border-radius: 29px;
+  background-color: #f64b3c;
+  padding: 10px 70px;
+  font-size: 23px;
+  font-weight: 700px;
+  color: white;
+  font-family: "Montserrat";
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.logoes {
+  position: relative;
+}
+
+.img13 {
+  position: absolute;
+  bottom: 300px;
+  right: 0px;
+}
+.img14 {
+  height: 20vh;
+  position: absolute;
+  bottom: -100px;
+  right: 20px;
+}
+.img15 {
+  position: absolute;
+  left: 10px;
+  bottom: 350px;
+}
+.img16 {
+  position: absolute;
+  left: 20px;
+  bottom: -80px;
+}
+.img17 {
+  position: absolute;
+  bottom: 450px;
+  left: 370px;
+}
+.img18 {
+  height: 20vh;
+  position: absolute;
+  bottom: 450px;
+  right: 300px;
+}
+/* main6 complate */
+
+.main7 {
+  background-image: linear-gradient(
+      rgba(239, 95, 95, 0.474),
+      rgba(170, 47, 47, 0.538)
+    ),
+    url("img/52.png");
+  height: 100vh;
+  background-size: cover;
+}
+.main7 p {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+}
+.main7 .oreder {
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Calistoga";
+  text-align: center;
+}
+.onida {
+  padding: 230px;
+}
+/* main7 is */
+
+.main8 {
+  background-color: #f6eedf;
+  height: 100vh;
+}
+.main8 h1 {
+  font-size: 75px;
+  color: #f64b3c;
+  font-weight: 700;
+  font-family: "Archivo";
+  text-align: center;
+}
+.main8 p {
+  height: 125px;
+  font-size: 30px;
+  color: #f64b3c;
+  font-weight: 400;
+  font-family: "Nunito";
+  text-align: center;
+}
+.textcont {
+  margin-top: 150px;
+}
+.mains {
+  display: flex;
+}
+.mains input {
+  border: none;
+  height: 40px;
+  width: 500px;
+  border-radius: 30px;
+  opacity: 0.502;
+  font-size: 25px;
+  color: #835e3f;
+  font-weight: 400;
+  font-family: "Nunito";
+}
+.mains button {
+  border: none;
+  height: 42px;
+  width: 200px;
+  position: absolute;
+  right: 510px;
+  border-radius: 30px;
+  background-color: #f64b3c;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Nunito";
+  text-align: center;
+}
+.pp {
+  margin: 0 auto;
+  display: flex;
+}
+::placeholder {
+  padding-left: 20px;
+}
+.main9 {
+  background-color: #222222;
+  height: 50vh;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section1 h1{
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Archivo";
+}
+ul li{
+  list-style: none;
+}
+i{
+  font-size: 30px;
+}
